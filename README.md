@@ -1,54 +1,48 @@
 # 神经网络与深度学习
 
-<p align="center"><strong>两种读法，同一条学习主线。</strong></p>
 
-<p align="center">
-  <a href="https://nndl.ai/">系列主站</a> ·
-  <a href="https://github.com/nndl/nndl/releases/download/book-pdf/nndl-v2.pdf">第二版 PDF</a> ·
-  <a href="https://github.com/nndl/nndl/releases/download/book-pdf/nndl-ge.pdf">通识版 PDF</a> ·
-  <a href="https://nndl.ai/reading-path/">阅读路径</a> ·
-  <a href="https://github.com/nndl/nndl/issues">勘误与建议</a>
-</p>
+邱锡鹏著 · **第二版与通识版的电子书、目录和勘误入口**
 
-本仓库是邱锡鹏《神经网络与深度学习》系列中理论版与通识版的统一入口，提供出版前电子稿、章节目录、版本说明和勘误反馈。
+[系列主站](https://nndl.ai/) · [第二版 PDF](https://github.com/nndl/nndl/releases/download/book-pdf/nndl-v2.pdf) · [通识版 PDF](https://github.com/nndl/nndl/releases/download/book-pdf/nndl-ge.pdf) · [配套实践](https://github.com/nndl/nndl-practice) · [勘误与建议](https://github.com/nndl/nndl/issues)
 
-第一次接触 AI、希望先建立直觉，可以从<strong>通识版</strong>开始；希望系统学习原理、用于专业课程或研究入门，推荐以<strong>第二版（蒲公英书）</strong>为主；想边学边写代码，可搭配[《神经网络与深度学习：案例与实践》](https://github.com/nndl/nndl-practice)。
+想先理解机器如何学习、AI 能做什么，从**通识版**开始；希望系统掌握模型、算法与数学推导，选择**第二版（蒲公英书）**。两本书可分别阅读，也可以先建立直觉，再深入理论。
 
 ## 两本书
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://nndl.ai/nndl-v2/"><img src="assets/covers/nndl-2-cover.webp" width="180" alt="《神经网络与深度学习》第二版封面"></a>
+    <td width="110" align="center">
+      <a href="https://nndl.ai/nndl-v2/"><img src="assets/covers/nndl-2-cover.webp" width="96" alt="《神经网络与深度学习》第二版封面"></a>
+    </td>
+    <td valign="top">
       <h3>《神经网络与深度学习》第二版</h3>
       <p><strong>系统掌握理论与方法</strong></p>
-      <p align="left">“蒲公英书”的理论主线。从机器学习基础出发，系统讲解经典神经网络、优化、Transformer、图神经网络、强化学习、生成模型，以及大语言模型与智能体。</p>
-      <p align="left"><strong>适合：</strong>专业课程、研究入门，以及希望建立完整理论框架的读者。</p>
-      <p align="left"><strong>结构：</strong>3 个部分、16 章，另有 5 个数学基础附录。</p>
+      <p>从机器学习基础出发，系统讲解神经网络、优化、Transformer、图神经网络、强化学习、生成模型与大语言模型。</p>
+      <p><strong>适合：</strong>专业课程与研究入门。全书 16 章，另有 5 个数学基础附录。</p>
       <p><a href="https://github.com/nndl/nndl/releases/download/book-pdf/nndl-v2.pdf"><strong>下载 PDF</strong></a> · <a href="https://nndl.ai/nndl-v2/">本书页面</a> · <a href="#第二版目录">章节目录</a></p>
     </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://nndl.ai/nndl-ge/"><img src="assets/covers/nndl-ge-cover.webp" width="180" alt="《神经网络与深度学习》通识版封面"></a>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://nndl.ai/nndl-ge/"><img src="assets/covers/nndl-ge-cover.webp" width="96" alt="《神经网络与深度学习》通识版封面"></a>
+    </td>
+    <td valign="top">
       <h3>《神经网络与深度学习》通识版</h3>
       <p><strong>少一些公式，多一些直觉</strong></p>
-      <p align="left">用故事、案例和生活类比解释神经网络与深度学习，并延伸到大语言模型、智能体、多模态、科学智能、具身智能、AI 安全与未来。</p>
-      <p align="left"><strong>适合：</strong>非专业读者、跨学科入门、高校通识课，以及希望快速看懂现代 AI 的读者。</p>
-      <p align="left"><strong>结构：</strong>16 章，从机器学习基础一路讲到 AGI。</p>
+      <p>用故事、案例和生活类比解释神经网络与深度学习，并延伸到大语言模型、智能体、多模态、科学智能、具身智能、AI 安全与未来。</p>
+      <p><strong>适合：</strong>非专业读者、跨学科入门与高校通识课。全书 16 章。</p>
       <p><a href="https://github.com/nndl/nndl/releases/download/book-pdf/nndl-ge.pdf"><strong>下载 PDF</strong></a> · <a href="https://nndl.ai/nndl-ge/">本书页面</a> · <a href="#通识版目录">章节目录</a></p>
     </td>
   </tr>
 </table>
 
-两本书目前均处于出版筹备阶段，开放的是持续更新的出版前电子稿，不等同于最终纸质版。ISBN、定价和上市时间以出版社后续公告为准。
+**版本说明**：两本书均开放出版前电子稿，内容随修订更新；出版进度见各书页面。引用或反馈时请注明版本与下载日期。
 
-## 怎么选
+## 阅读建议
 
-| | 第二版（蒲公英书） | 通识版 |
-|---|---|---|
-| 适合读者 | 计算机、人工智能及相关专业学生，工程师与研究者 | 非专业读者、跨学科读者、通识课学生 |
-| 数学要求 | 接受公式与推导；书后提供数学基础附录 | 以直觉和案例为主，理解函数、向量、概率的基本含义即可 |
-| 阅读目标 | 建立完整的神经网络与深度学习理论体系 | 看懂技术脉络、核心思想、能力边界与现实影响 |
-| 推荐方式 | 系统学习或课程使用时作为主线教材 | 第一次接触 AI 时先读，也可作为第二版的先导读物 |
+通识版以故事、案例和直观解释为主；第二版需要线性代数、微积分与概率论基础，书后附录可用于复习。学习理论时，可搭配[第二版 PyTorch 实践](https://github.com/nndl/nndl-practice)验证模型与算法；已有基础并关注大模型方向，可继续阅读[《大模型与智能体》](https://nndl.ai/llm-agent/)。
+
+[查看四本书的选书与阅读路径](https://nndl.ai/reading-path/)
 
 ## 章节目录
 
@@ -144,19 +138,23 @@
 
 - [系列主站](https://nndl.ai/)
 - [阅读路径与选书建议](https://nndl.ai/reading-path/)
-- [《神经网络与深度学习：案例与实践》](https://github.com/nndl/nndl-practice)：配套工程实践与 PyTorch / PaddlePaddle 代码
-- [《大模型与智能体》](https://github.com/nndl/llm-beginner)：面向大模型与智能体的专题读本
+- [《神经网络与深度学习：案例与实践》](https://github.com/nndl/nndl-practice)：第二版 PyTorch 配套实践；第一版 PaddlePaddle 代码见独立仓库
+- [《大模型与智能体》](https://github.com/nndl/llm-beginner)：专题读本与 6 个独立入门练习
 
 ## 第一版归档
 
 - [`legacy/nndl-v1/`](legacy/nndl-v1/)：第一版 PDF、勘误与封面
 - [`nndl-v1` 分支](https://github.com/nndl/nndl/tree/nndl-v1)：第一版完整资料，包括各章 PDF 与教学幻灯片
 
-## 仓库维护说明
+<details>
+<summary>仓库维护说明</summary>
+
 
 - [`nndl-v2/`](nndl-v2/)：第二版的主站元数据与说明页；第二版 LaTeX 源码不在本公开仓库中。
 - [`nndl-ge/`](nndl-ge/)：通识版的主站元数据与说明页。
 - 各书目录的 `_meta.yml` 是主站书目卡片的数据源，由 [`nndl.github.io/scripts/aggregate-books.py`](https://github.com/nndl/nndl.github.io/blob/main/scripts/aggregate-books.py) 聚合生成主站数据。
+
+</details>
 
 ## Star History
 
